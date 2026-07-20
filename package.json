@@ -4,8 +4,7 @@
   "version": "1.0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sergiopbi/PBI_VISUALS.git",
-    "directory": "smartBucketChart"
+    "url": "https://github.com/sergiopbi/SmartBucketChart.git"
   },
   "license": "MIT",
   "scripts": {
