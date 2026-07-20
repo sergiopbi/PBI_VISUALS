@@ -1,0 +1,32 @@
+{
+  "name": "visual",
+  "description": "Buckets rows by an optional numeric metric, or by the dimension itself when numeric. Falls back to a plain grouped chart (no binning) when the dimension is text.",
+  "version": "1.0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergiopbi/PBI_VISUALS.git",
+    "directory": "smartBucketChart"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "npx eslint .",
+    "eslint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@types/d3": "7.4.3",
+    "d3": "7.9.0",
+    "powerbi-visuals-api": "~5.3.0",
+    "powerbi-visuals-utils-formattingmodel": "6.0.4",
+    "powerbi-visuals-utils-formattingutils": "^6.1.2",
+    "powerbi-visuals-utils-tooltiputils": "^6.0.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.8.0",
+    "eslint": "^9.11.1",
+    "eslint-plugin-powerbi-visuals": "^1.0.0",
+    "typescript": "5.5.4"
+  }
+}
